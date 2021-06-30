@@ -1,0 +1,78 @@
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgb(38, 63, 63);
+}
+
+
+.card-header h3{
+color: white;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #dbd809;
+color: black;
+border:0;
+}
+
+input:focus{
+outline: 0 0 0 0;
+box-shadow: 0 0 0 0;
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.btn-login{
+color: black;
+background-color: #dbd809;
+width: 100px;
+float: right;
+}
+
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+html,body{
+   /* background-image: url('4.jpg');  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.card-img-right {
+    color: #fff;
+    height: 20rem;
+    background: url(4.jpg) center no-repeat;
+    background-size: cover;
+  }
